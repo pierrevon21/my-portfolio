@@ -40,15 +40,7 @@ export default function Portfolio() {
   }, [fullText]);
 
   return (
-    <div
-      className={`bg-gray-900`}
-      style={{
-        fontFamily: '"Open Sans", sans-serif',
-        fontOpticalSizing: "auto",
-        fontStyle: "normal",
-        fontVariationSettings: '"wdth" 100',
-      }}
-    >
+    <div className={`bg-gray-900`}>
       {/* Hero Section */}
       <section className="min-h-screen flex items-center justify-center p-4 relative">
         <div
