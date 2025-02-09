@@ -1,6 +1,16 @@
-import React from "react";
+import { ReactNode } from "react";
 
-export const Button = ({ children, variant = "solid", onClick }) => {
+interface ButtonProps {
+  children: ReactNode;
+  variant?: "solid" | "outline";
+  onClick?: () => void;
+}
+
+export const Button = ({
+  children,
+  variant = "solid",
+  onClick,
+}: ButtonProps) => {
   const baseStyle =
     "px-4 py-2 rounded-lg font-medium focus:outline-none transition-all";
   const variantStyle =
