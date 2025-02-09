@@ -23,7 +23,7 @@ export function Project() {
     },
   ]);
 
-  const bringToTop = (index) => {
+  const bringToTop = (index: number) => {
     setProjects((prev) => {
       const newOrder = [...prev];
       const [selected] = newOrder.splice(index, 1);

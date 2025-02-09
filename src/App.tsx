@@ -3,7 +3,6 @@ import { useState, useEffect } from "react";
 import { About } from "./About";
 import { Project } from "./Projects";
 import { FaGithub, FaLinkedin, FaTwitter, FaArrowDown } from "react-icons/fa";
-import { FloatingParticles } from "./FloatinParticles";
 
 export default function Portfolio() {
   const [text, setText] = useState("");
@@ -148,7 +147,7 @@ export default function Portfolio() {
             transition={{ delay: 1.2 }}
           >
             {["React", "Vue", "Nuxt", "ionic", "Node.js", "PostgreSQL"].map(
-              (tech, index) => (
+              (tech) => (
                 <motion.span
                   key={tech}
                   className="px-4 py-2 bg-blue-600/80 text-white rounded-full text-sm font-medium shadow-md"
