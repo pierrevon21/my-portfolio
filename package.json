@@ -1,6 +1,6 @@
 {
-  "homepage": "http://pierrevon21.github.io/my-portfolio",
-  "name": "react-app",
+  "homepage": "http://pierrevon21.github.io/my-portfolio/",
+  "name": "myportfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
