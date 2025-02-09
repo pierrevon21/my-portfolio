@@ -32,7 +32,7 @@ export function About() {
           >
             <div className="aspect-square rounded-2xl overflow-hidden bg-gradient-to-br from-red-500 to-blue-600 p-1">
               <img
-                src="/images/me-transpa.png"
+                src="/my-portfolio/images/me-transpa.png"
                 alt="Profile"
                 className="w-full h-full object-cover rounded-2xl"
               />
